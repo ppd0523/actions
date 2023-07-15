@@ -20,10 +20,13 @@ class SampleTest(unittest.TestCase):
         self.assertEqual(r, 30, 'add testing')
 
     # @unittest.skip('no reason')
-    def test2_add(self):
+    def test_add(self):
         r = add(1, 2)
         self.assertEqual(3, r)
 
+    def test_multiply(self):
+        r = multiply(1, 2)
+        self.assertEqual(3, r)
 
 if __name__ == '__main__':
     unittest.main()
