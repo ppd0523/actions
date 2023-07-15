@@ -7,4 +7,4 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - runs: echo "hello cicd"
+      - run: echo "hello cicd"
